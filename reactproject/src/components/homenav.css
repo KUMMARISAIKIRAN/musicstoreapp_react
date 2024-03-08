@@ -1,0 +1,139 @@
+.navbar {
+    text-align: center;
+    background-color: #333; /* Set background color */
+    padding: 10px 0; /* Add padding to the top and bottom */
+}
+
+.navbar a {
+    color: rgb(163, 236, 130); /* Set text color */
+    text-decoration: none; /* Remove underline */
+    padding: 0 40px; /* Add padding to the left and right */
+    font-size: 38px;  
+    font-weight: 900;
+}
+.navbar-admin {
+    text-align: center;
+    background-color: #ffffff; /* Set background color */
+    padding: 10px 0; /* Add padding to the top and bottom */
+}
+
+.navbar-admin a {
+    color: rgb(0, 0, 0); /* Set text color */
+    text-decoration: none; /* Remove underline */
+    padding: 0 40px; /* Add padding to the left and right */
+    font-size: 38px;
+    font-weight: 900;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-position: center; /* Center the background image */
+  background-size: cover; /* Cover the entire container */
+  background-attachment: fixed; 
+}
+.bgimg{
+
+  width: 100%;
+  height: 700px;
+  background-attachment: fixed; 
+}
+.navbar a:hover {
+    background-color: rgba(243, 235, 235, 0.313); /* Change background color on hover */
+    border-radius: 40px;
+    border: 1px;
+}
+.navbar-admin a:hover {
+    background-color: rgba(159, 152, 152, 0.708); /* Change background color on hover */
+    border-radius: 40px;
+    border: 1px;
+}
+.image-container {
+    padding-top: 10px;
+ border-top: 10px;
+    background-image: "./images/main_bg.png"; /* Set the image as background */
+    background-position: center; /* Center the background image */
+    position: relative; /* Establish positioning context for the nav bar */
+    background-attachment: fixed; 
+}
+.navbar {
+    padding-top: 10px;
+    position: absolute; /* Position the navbar relative to the container */
+    top: 0; /* Align the navbar to the top of the container */
+    left: 0; /* Align the navbar to the left of the container */
+    width: 100%; /* Make the navbar full width */
+    text-align: center; /* Center align the links */
+    background-color:transparent /* Set a semi-transparent background color */
+}
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 20px;
+  }
+  
+  .login-container fieldset {
+    border: none;
+  }
+  
+  .login-container legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .login-container input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-container input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+  /* Contact.css */
+.contact-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 20px;
+  }
+  
+  .contact-container .content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container p {
+    margin-bottom: 5px;
+  }
+  

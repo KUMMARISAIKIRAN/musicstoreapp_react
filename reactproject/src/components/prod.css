@@ -1,0 +1,39 @@
+.container-product {
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width : 300px;
+    margin: 5px;
+    text-align: center;
+    padding : 5px;
+    float: left;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 200px; /* Adjust the height of the image */
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 20px;
+    height: calc(100% - 200px); /* Calculate the height of the body */
+    overflow: auto; /* Add overflow for scrolling if necessary */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Increase the font size of the title */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}

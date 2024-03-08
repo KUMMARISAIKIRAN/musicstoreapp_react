@@ -1,0 +1,20 @@
+.buttonatc{
+    background-color: #dc3545; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Adjust maximum width as needed */
+  }
+   
+.large-input {
+    font-size: 18px; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
+}
